@@ -8,11 +8,11 @@ Created on Wed Mar 22 08:50:06 2017
 import twitter
 import pandas as pd
 
-twitter_consumer_key = 'NRC0vAPxEOq1tOpY9qeFng'
-twitter_consumer_secret = 'ivIQOgPyuhoNjlPpVslM4837VGaq9r76vKQ5YUuh020'
+twitter_consumer_key = ''
+twitter_consumer_secret = ''
 
-twitter_access_token_key = '325235411-gdyxbcvrjoSANEsHHfcytaJFeRYFIlZn3XsPgstl'
-twitter_access_token_secret = '6RL5KhNOz655K5ZQ3kF2dBtAosDZwISy8rSzgVHfr1s'
+twitter_access_token_key = ''
+twitter_access_token_secret = ''
 
 def get_tweets(username):
     api = twitter.Api(consumer_key=twitter_consumer_key,
